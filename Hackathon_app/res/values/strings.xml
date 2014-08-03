@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">鲜果宅</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="image_description">image</string>
+    <string name="hot_rec">热门推荐</string>
+    <string name="fruit_name_1">泰国火龙果</string>
+    <string name="fruit_nutrition">[泰国]排毒养颜，美白皮肤，减肥，抑制痴呆</string>
+    <string name="fruit_price_1">19元</string>
+    <string name="point_1">积分  6</string>
+    <string name="sell_amount">销量</string>
+    <string name="dup_point">积分 6</string>
+    <string name="assess">累计评价(36)</string>
+    <string name="buy_amount">购买数量</string>
+    <string name="edit_hint">请输入购买数量</string>
+    <string name="buy_btn_text">现在购买</string>
+    <string name="collect">收藏该水果</string>
+</resources>

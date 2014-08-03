@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="navigation_name">
+        <item>小可</item>
+        <item>首页</item>
+        <item>最新资讯</item>
+        <item>营养助手</item>
+        <item>全部订单</item>
+        <item>积分</item>
+        <item>设置</item>
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_headphoto1</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_nutrition</item>
+        <item>@drawable/ic_orders</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_pages</item>
+    </array>
+
+    <string-array name="category">
+        <item>所有分类</item>
+        <item>当季</item>
+        <item>进口</item>
+        <item>折扣</item>
+    </string-array>
+    <string-array name="sort">
+        <item>最新发布</item>
+        <item>人气最高</item>
+        <item>价格最低</item>
+        <item>价格最高</item>
+    </string-array>
+    <string-array name="com_category">
+        <item>所有分类</item>
+        <item>双拼</item>
+        <item>三拼</item>
+        <item>沙拉</item>
+        <item>套餐</item>
+    </string-array>
+
+</resources>

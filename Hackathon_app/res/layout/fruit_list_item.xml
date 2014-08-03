@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/fruit_list"
+     >
+
+    <ImageView
+        android:id="@+id/fruit_image"
+        android:layout_width="100dip"
+        android:layout_height="80dip"
+        android:contentDescription="@string/image_description"
+        android:src="@drawable/ic_fruit_1" />
+
+    <TextView
+        android:id="@+id/fruit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dip"
+        android:layout_toRightOf="@id/fruit_image"
+        android:text="@string/fruit_name_1"
+        android:textColor="@color/orange" />
+
+    <TextView
+        android:id="@+id/fruit_nutrition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fruit_name"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/fruit_image"
+        android:text="@string/fruit_nutrition" />
+
+    <TextView
+        android:id="@+id/fruit_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fruit_nutrition"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/fruit_image"
+        android:text="@string/fruit_price_1"
+        android:textColor="@color/purple_red" />
+
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/fruit_nutrition"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="85dp"
+        android:layout_toRightOf="@id/fruit_price"
+        android:text="@string/point_1"
+        android:textColor="@color/gold"
+        />
+
+</RelativeLayout>

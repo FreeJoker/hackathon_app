@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:id="@+id/dup_fruit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pager"
+        android:text="@string/fruit_name_1" />
+
+    <TextView
+        android:id="@+id/dup_fruit_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/pager"
+        android:layout_toRightOf="@id/dup_fruit_name"
+        android:text="@string/fruit_price_1" />
+
+    <TextView
+        android:id="@+id/sell_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dup_fruit_name"
+        android:text="@string/sell_amount" />
+
+    <TextView
+        android:id="@+id/dup_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/dup_fruit_name"
+        android:layout_toRightOf="@id/sell_amount"
+        android:text="@string/dup_point" />
+
+    <TextView
+        android:id="@+id/assess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dup_fruit_name"
+        android:layout_toRightOf="@id/dup_point"
+        android:layout_marginLeft="80dp"
+        android:text="@string/assess" />
+    <TextView
+        android:id="@+id/buy_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_below="@id/sell_amount"
+        android:text="@string/buy_amount" />
+    <EditText
+        android:id="@+id/buy_amount_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/sell_amount"
+        android:layout_toRightOf="@id/buy_amount"
+        android:hint="@string/edit_hint" />
+    <Button 
+        android:id="@+id/buy_btn"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buy_amount"
+        android:background="#9370DB"
+        android:text="@string/buy_btn_text"
+        android:layout_marginTop="8dp"
+        />
+    <Button 
+        android:id="@+id/collect"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buy_btn"
+        android:layout_marginLeft="60dp"
+        android:text="@string/collect"
+        android:layout_below="@id/buy_amount_edit"
+        android:background="#808000"
+        />
+</RelativeLayout>
